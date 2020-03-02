@@ -16,6 +16,8 @@ Your function should now be available at:
 https://[your-netlify-site].netlify.com/.netlify/functions/image
 ```
 
+Though it won't do much without configuration.
+
 ## Setup
 
 To begin setup, with a newly cloned repo:
