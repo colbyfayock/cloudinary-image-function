@@ -1,6 +1,6 @@
-# Tweet with Twitter!
+# Cloudinary Image Function
 
-Lambda for simply sending a tweet upon post using Netlify's Functions capabilities.
+Lambda for generating a predetermined Cloudinary image transform by ID. Particularly useful for being able to control an image dynamically with a static link.
 
 ## Setup
 
@@ -16,12 +16,7 @@ yarn serve
 Which will start the function available at `localhost:9000/tweet`
 
 ### Config
-There are a few requirements for getting this to work:
- - Generate a shared secret string
- - Twitter consumer key
- - Twitter consumer secret
- - Twitter access token
- - Twitter access secret
+
 
 ### Env
 Create a local `.env` file with the shared secret. This is used in coordination with JWT to create token containing your Twitter keys that gets posted to this function endpoint.
