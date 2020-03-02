@@ -1,2 +1,7 @@
 [build]
   functions = "dist"
+
+[[redirects]]
+  from = "/demo-cloudinary-transform-designer*"
+  to = "/.netlify/functions/image/demo-cloudinary-transform-designer"
+  status = 302
