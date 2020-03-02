@@ -11,7 +11,9 @@ const images = require('./images');
 
 export async function handler({ path } = {}) {
   const pathParts = path.split('/');
-  const pathImageId = pathParts[2];
+  const findImagePrefix = pathParts.find(part => part === 'image');
+  const imageIdIndex = pathParts.indexOf(findImagePrefix);
+  const pathImageId = pathParts[imageIdIndex + 1];
   const imageConfig = images.find(({ imageId } = {}) => imageId === pathImageId);
 
   if ( !imageConfig ) {
