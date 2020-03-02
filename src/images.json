@@ -1,0 +1,29 @@
+[
+  {
+    "imageId": "demo-cloudinary-transform-designer",
+    "options": {
+      "w": 1280,
+      "h": 640,
+      "c": "fill",
+      "q": "auto",
+      "f": "auto"
+    },
+    "text": {
+      "text": "Your text here!",
+      "format": {
+        "font": "Source Sans Pro",
+        "size": 70,
+        "lineSpacing": -10,
+        "weight": "semibold"
+      },
+      "options": {
+        "w": 860,
+        "c": "fit",
+        "co": "rgb:5E35B1",
+        "g": "west",
+        "x": 80,
+        "y": -60
+      }
+    }
+  }
+]
