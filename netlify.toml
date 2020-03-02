@@ -5,3 +5,8 @@
   from = "/demo-cloudinary-transform-designer*"
   to = "/.netlify/functions/image/demo-cloudinary-transform-designer"
   status = 302
+
+[[redirects]]
+  from = "/social-footer-card*"
+  to = "/.netlify/functions/image/social-footer-card"
+  status = 302

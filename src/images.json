@@ -25,5 +25,136 @@
         "y": -60
       }
     }
+  },
+  {
+    "imageId": "social-footer-card",
+    "options": {
+      "w": 2000,
+      "h": 400,
+      "c": "fill",
+      "q": "auto",
+      "f": "auto"
+    },
+    "text": [
+      {
+        "text": "Colby Fayock",
+        "format": {
+          "font": "Source Sans Pro",
+          "size": 70,
+          "lineSpacing": -10,
+          "weight": "bold"
+        },
+        "options": {
+          "w": 1040,
+          "c": "fit",
+          "co": "rgb:007079",
+          "g": "north_west",
+          "x": 450,
+          "y": 50
+        }
+      },
+      {
+        "text": "Follow me for more JavaScript%2c UX%2c and other interesting things!",
+        "format": {
+          "font": "Source Sans Pro",
+          "size": 50,
+          "lineSpacing": 0,
+          "weight": "normal"
+        },
+        "options": {
+          "w": 1040,
+          "c": "fit",
+          "co": "rgb:a0a9b1",
+          "g": "north_west",
+          "x": 450,
+          "y": 154
+        }
+      },
+      {
+        "text": "colbyfayock.com",
+        "format": {
+          "font": "Source Sans Pro",
+          "size": 40,
+          "lineSpacing": -10,
+          "weight": "semibold"
+        },
+        "options": {
+          "w": 1040,
+          "c": "fit",
+          "co": "rgb:007079",
+          "g": "south_west",
+          "x": 450,
+          "y": 50
+        }
+      },
+      {
+        "text": "colbyfayock",
+        "format": {
+          "font": "Source Sans Pro",
+          "size": 44,
+          "lineSpacing": -10,
+          "weight": "semibold"
+        },
+        "options": {
+          "w": 860,
+          "c": "fit",
+          "co": "rgb:a0a9b1",
+          "g": "north_west",
+          "x": 1680,
+          "y": 48
+        }
+      },
+      {
+        "text": "colbyfayock",
+        "format": {
+          "font": "Source Sans Pro",
+          "size": 44,
+          "lineSpacing": -10,
+          "weight": "semibold"
+        },
+        "options": {
+          "w": 860,
+          "c": "fit",
+          "co": "rgb:a0a9b1",
+          "g": "north_west",
+          "x": 1680,
+          "y": 136
+        }
+      },
+      {
+        "text": "colbyfayock",
+        "format": {
+          "font": "Source Sans Pro",
+          "size": 44,
+          "lineSpacing": -10,
+          "weight": "semibold"
+        },
+        "options": {
+          "w": 860,
+          "c": "fit",
+          "co": "rgb:a0a9b1",
+          "g": "north_west",
+          "x": 1680,
+          "y": 230
+        }
+      },
+      {
+        "text": "colbyfayock",
+        "format": {
+          "font": "Source Sans Pro",
+          "size": 44,
+          "lineSpacing": -10,
+          "weight": "semibold"
+        },
+        "options": {
+          "w": 860,
+          "c": "fit",
+          "co": "rgb:a0a9b1",
+          "g": "north_west",
+          "x": 1680,
+          "y": 318
+        }
+      }
+    ]
   }
 ]
