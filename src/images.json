@@ -93,10 +93,10 @@
           "font": "Source Sans Pro",
           "size": 44,
           "lineSpacing": -10,
-          "weight": "semibold"
+          "weight": "normal"
         },
         "options": {
-          "w": 860,
+          "w": 300,
           "c": "fit",
           "co": "rgb:a0a9b1",
           "g": "north_west",
@@ -110,10 +110,10 @@
           "font": "Source Sans Pro",
           "size": 44,
           "lineSpacing": -10,
-          "weight": "semibold"
+          "weight": "normal"
         },
         "options": {
-          "w": 860,
+          "w": 300,
           "c": "fit",
           "co": "rgb:a0a9b1",
           "g": "north_west",
@@ -127,10 +127,10 @@
           "font": "Source Sans Pro",
           "size": 44,
           "lineSpacing": -10,
-          "weight": "semibold"
+          "weight": "normal"
         },
         "options": {
-          "w": 860,
+          "w": 300,
           "c": "fit",
           "co": "rgb:a0a9b1",
           "g": "north_west",
@@ -144,10 +144,10 @@
           "font": "Source Sans Pro",
           "size": 44,
           "lineSpacing": -10,
-          "weight": "semibold"
+          "weight": "normal"
         },
         "options": {
-          "w": 860,
+          "w": 300,
           "c": "fit",
           "co": "rgb:a0a9b1",
           "g": "north_west",
