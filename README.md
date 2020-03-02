@@ -19,35 +19,12 @@ Which will start the function available at `localhost:9000/tweet`
 
 
 ### Env
-Create a local `.env` file with the shared secret. This is used in coordination with JWT to create token containing your Twitter keys that gets posted to this function endpoint.
+Create a local `.env` file with the shared secret. This is used to store your cloud name within the deployment.
 
 ```
-APP_SECRET="[secret]"
+CLOUDINARY_CLOUD_NAME="[cloud name]"
 ```
 
 Wherever this is getting deployed, you'll need to set up an environment variable with that name that will populate the `process.env` when the function is ran. With Netlify, you can set this up as a Build Environment Variable.
 
-## Posting to Endpoint
-
-### Authorization Header
-When posting to the endpoint, you'll need to generate a JWT given the same `APP_SECRET` as above. The contents of the JWT before signed should look like:
-```
-{
-  twitter_consumer_key: [key],
-  twitter_consumer_secret: [key],
-  twitter_access_token_key: [key],
-  twitter_access_token_secret: [key],
-}
-```
-
-Pass this as an `Authorization` header
-
-### Content
-The body of the post should look like the following:
-```
-{
-  "description": "[text of tweet]",
-  "link": "[tweet link appended to status]",
-  "image": "[tweet image (optional)]",
-}
-```
+## Requesting the Endpoint
