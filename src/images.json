@@ -22,7 +22,8 @@
         "co": "rgb:5E35B1",
         "g": "west",
         "x": 80,
-        "y": -60
+        "y": -60,
+        "f": "jpg"
       }
     }
   },
@@ -98,7 +99,7 @@
         "options": {
           "w": 300,
           "c": "fit",
-          "co": "rgb:8a9299",
+          "co": "rgb:7c848a",
           "g": "north_west",
           "x": 1720,
           "y": 68
@@ -115,7 +116,7 @@
         "options": {
           "w": 300,
           "c": "fit",
-          "co": "rgb:8a9299",
+          "co": "rgb:7c848a",
           "g": "north_west",
           "x": 1720,
           "y": 145
@@ -132,7 +133,7 @@
         "options": {
           "w": 300,
           "c": "fit",
-          "co": "rgb:8a9299",
+          "co": "rgb:7c848a",
           "g": "north_west",
           "x": 1720,
           "y": 222
@@ -149,7 +150,7 @@
         "options": {
           "w": 300,
           "c": "fit",
-          "co": "rgb:8a9299",
+          "co": "rgb:7c848a",
           "g": "north_west",
           "x": 1720,
           "y": 295
