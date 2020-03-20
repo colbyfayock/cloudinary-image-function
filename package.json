@@ -8,8 +8,8 @@
     "serve": "netlify-lambda serve src",
     "build": "netlify-lambda build src"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
